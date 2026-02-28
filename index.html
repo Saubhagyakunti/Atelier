@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathakar Saubhagya | Classical Storyteller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS: The "Skin" of your website */
+        :root {
+            --bg-dark: #0a0a0a;
+            --gold: #d4af37;
+            --deep-red: #4a0404;
+            --text-gray: #b5b5b5;
+        }
+
+        body {
+            margin: 0;
+            background-color: var(--bg-dark);
+            color: #fff;
+            font-family: 'Cormorant Garamond', serif;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('your-image.jpg') center/cover no-repeat;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        h1 {
+            font-size: clamp(3rem, 10vw, 5rem);
+            letter-spacing: 8px;
+            margin: 0;
+            color: var(--gold);
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-size: 1.5rem;
+            color: var(--text-gray);
+        }
+
+        /* About Section */
+        .section {
+            padding: 80px 10%;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 1.8rem;
+            color: var(--gold);
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .line-divider {
+            width: 100px;
+            height: 1px;
+            background: var(--gold);
+            margin: 20px auto;
+        }
+
+        /* Performance Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .card {
+            border: 1px solid #333;
+            padding: 20px;
+            background: #111;
+            transition: 0.4s;
+        }
+
+        .card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Contact Button */
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            text-decoration: none;
+            letter-spacing: 2px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: var(--gold);
+            color: #000;
+        }
+
+        footer {
+            padding: 40px;
+            background: #000;
+            border-top: 1px solid #222;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-gray);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>KATHAKAR SAUBHAGYA</h1>
+        <p class="tagline">Traditional Roots. Contemporary Soul.</p>
+        <a href="#about" class="btn">Explore the Journey</a>
+    </header>
+
+    <section class="section" id="about">
+        <p class="quote">"Where the hand goes, the eyes follow; where the eyes go, the heart dwells."</p>
+        <div class="line-divider"></div>
+        <h2>The Art of Storytelling</h2>
+        <p style="max-width: 700px; margin: auto; font-size: 1.2rem;">
+            A classical dancer is a bridge between the divine and the audience. 
+            Saubhagya brings the rhythm of the Ghungroo and the depth of Abhinaya 
+            to the modern stage, honoring the heritage of Indian Classical Dance.
+        </p>
+    </section>
+
+    <section class="section" style="background-color: #0e0e0e;">
+        <h2>Repertoire</h2>
+        <div class="gallery">
+            <div class="card">
+                <h3>Viraat</h3>
+                <p>An exploration of cosmic energy through rhythm.</p>
+            </div>
+            <div class="card">
+                <h3>Shringar</h3>
+                <p>The delicate language of expressions and love.</p>
+            </div>
+            <div class="card">
+                <h3>Dhrupad</h3>
+                <p>Traditional performance set to ancient spiritual hymns.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 KATHAKAR SAUBHAGYA | Indian Classical Performer</p>
+        <p>Inquiries: contact@saubhagya.com</p>
+    </footer>
+
+</body>
+<script>
+
+</script>
+</html>
